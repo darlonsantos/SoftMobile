@@ -1,0 +1,164 @@
+object frmConfig: TfrmConfig
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 505
+  ClientWidth = 365
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object ToolBar1: TToolBar
+    Size.Width = 365.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object btnVoltar: TSpeedButton
+      Align = FitLeft
+      StyleLookup = 'replytoolbutton'
+      Text = 'btnVoltar'
+      OnClick = btnVoltarClick
+    end
+    object Label1: TLabel
+      Align = Client
+      Size.Width = 292.000000000000000000
+      Size.Height = 44.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      Text = 'Configura'#231#245'es'
+      TabOrder = 1
+    end
+  end
+  object VertScrollBox1: TVertScrollBox
+    Align = Client
+    Size.Width = 365.000000000000000000
+    Size.Height = 417.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 365.000000000000000000
+    Viewport.Height = 417.000000000000000000
+    object Layout1: TLayout
+      Align = Client
+      Size.Width = 365.000000000000000000
+      Size.Height = 417.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Rectangle1: TRectangle
+        Align = Client
+        Fill.Color = claWhite
+        Margins.Left = 3.000000000000000000
+        Margins.Top = 3.000000000000000000
+        Margins.Right = 3.000000000000000000
+        Margins.Bottom = 3.000000000000000000
+        Size.Width = 359.000000000000000000
+        Size.Height = 411.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = claWhite
+        object Layout2: TLayout
+          Align = MostTop
+          Margins.Left = 10.000000000000000000
+          Margins.Top = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 10.000000000000000000
+          Size.Width = 339.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object edtlink: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Bottom
+            TabOrder = 0
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            Position.Y = 33.000000000000000000
+            Size.Width = 339.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, FontColor]
+            object ClearEditButton1: TClearEditButton
+              CanFocus = False
+              Cursor = crArrow
+              Size.Width = 22.000000000000000000
+              Size.Height = 27.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+            end
+          end
+          object Label2: TLabel
+            Align = Top
+            Size.Width = 339.000000000000000000
+            Size.Height = 21.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'URL/IP'
+            TabOrder = 1
+          end
+        end
+        object Layout3: TLayout
+          Align = MostTop
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Margins.Bottom = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 83.000000000000000000
+          Size.Width = 339.000000000000000000
+          Size.Height = 63.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object edtPorta: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Bottom
+            TabOrder = 0
+            KeyboardType = NumberPad
+            TextSettings.Font.Size = 16.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            Position.Y = 33.000000000000000000
+            Size.Width = 339.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            StyledSettings = [Family, FontColor]
+            object ClearEditButton2: TClearEditButton
+              CanFocus = False
+              Cursor = crArrow
+              Size.Width = 22.000000000000000000
+              Size.Height = 27.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 0
+            end
+          end
+          object Label3: TLabel
+            Align = Top
+            Size.Width = 339.000000000000000000
+            Size.Height = 21.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'Porta'
+            TabOrder = 1
+          end
+        end
+      end
+    end
+  end
+  object ToolBar2: TToolBar
+    Align = Bottom
+    Position.Y = 461.000000000000000000
+    Size.Width = 365.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnSalvar: TSpeedButton
+      Align = FitLeft
+      StyleLookup = 'bookmarkstoolbutton'
+      Text = 'btnSalvar'
+      OnClick = btnSalvarClick
+    end
+    object btnEditar: TSpeedButton
+      Align = FitRight
+      StyledSettings = []
+      Position.X = 292.000000000000000000
+      StyleLookup = 'composetoolbutton'
+      Text = 'btnEditar'
+      OnClick = btnEditarClick
+    end
+  end
+end

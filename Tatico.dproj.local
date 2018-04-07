@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/14 20:18:57.000.462,=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2018/03/14 20:18:58.000.790,=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\ServerConst1.pas</Transaction>
+    <Transaction>2018/04/02 22:13:12.000.382,=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/02 22:14:11.000.110,F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Utatico.fmx=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2018/04/02 22:14:11.000.110,F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Utatico.pas=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/04/02 22:14:16.000.524,F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Tatico.dproj=C:\Users\darlo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2018/04/04 21:07:48.000.242,=F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Unit1.pas</Transaction>
+    <Transaction>2018/04/04 21:09:08.000.666,F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Unit1.fmx=F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\UConfig.fmx</Transaction>
+    <Transaction>2018/04/04 21:09:08.000.666,F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\Unit1.pas=F:\AMBIENTE DE DESENVOLVIMENTO\FNTS TATICO\Mobile\UConfig.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMAC iOSSimulator="iPhone5" iOSDevice32="" iOSDevice64=""/>
+		<NoProfile Android="ANDROID"/>
+	</ActiveMobileDevice>
+</BorlandProject>

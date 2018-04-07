@@ -1,0 +1,121 @@
+inherited principal_LgXhdpiPh: Tprincipal_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 2
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Label1: TLabel
+      Size.Width = 450.000000000000000000
+      Size.Height = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited VertScrollBox1: TVertScrollBox
+    Size.Width = 450.000000000000000000
+    Size.Height = 599.000000000000000000
+    Viewport.Width = 450.000000000000000000
+    Viewport.Height = 599.000000000000000000
+    inherited Layout1: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle2: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited edtVendaGeral: TEdit
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout3: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle3: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited edtValorMedio: TEdit
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout2: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle1: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited Label2: TLabel
+          Size.Width = 410.000000000000000000
+        end
+        inherited dtInicio: TDateEdit
+          Position.Y = 26.000000000000000000
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout4: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle4: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited edtLucroPorcentagem: TEdit
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout5: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle5: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited edtPedidosEmitidos: TEdit
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout6: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle6: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited edtLucro: TEdit
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+    inherited Layout7: TLayout
+      Size.Width = 430.000000000000000000
+      inherited Rectangle7: TRectangle
+        Size.Width = 430.000000000000000000
+        inherited Label3: TLabel
+          Size.Width = 410.000000000000000000
+        end
+        inherited dtFinalizacao: TDateEdit
+          Position.Y = 23.000000000000000000
+          Size.Width = 410.000000000000000000
+          Size.Height = 32.000000000000000000
+        end
+      end
+    end
+  end
+  inherited ToolBar2: TToolBar
+    Position.Y = 647.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 48.000000000000000000
+    inherited Rectangle8: TRectangle
+      Margins.Left = 10.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Height = 48.000000000000000000
+      inherited SpeedButton1: TSpeedButton
+        Size.Height = 48.000000000000000000
+      end
+    end
+    inherited Rectangle9: TRectangle
+      Margins.Left = 40.000000000000000000
+      Margins.Right = 40.000000000000000000
+      Position.X = 283.000000000000000000
+      Size.Height = 48.000000000000000000
+      inherited btnConexao: TSpeedButton
+        Size.Height = 48.000000000000000000
+      end
+    end
+  end
+end
