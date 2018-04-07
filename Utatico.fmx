@@ -13,6 +13,7 @@ object principal: Tprincipal
     Size.Height = 44.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1
+    TintColor = claWhite
     object Label1: TLabel
       Align = Client
       StyledSettings = [Family, FontColor]
@@ -429,6 +430,7 @@ object principal: Tprincipal
     Size.Height = 44.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 3
+    TintColor = claWhite
     object btnConexao: TSpeedButton
       Align = Right
       StyledSettings = [Family, Size, Style]
@@ -447,7 +449,7 @@ object principal: Tprincipal
       Size.Width = 44.000000000000000000
       Size.Height = 44.000000000000000000
       Size.PlatformDefault = False
-      StyleLookup = 'searchtoolbuttonbordered'
+      StyleLookup = 'searchtoolbutton'
       Text = 'Pesquisar'
       TextSettings.FontColor = claWhite
       OnClick = SpeedButton2Click
